@@ -14,7 +14,7 @@ def get_version_from_changelog():
 
 setup(
     name='puppet_forge_query',
-    description='Puppet's Forge query command line tool',
+    description='Puppet\'s Forge query command line tool',
     long_description=io.open('README.md').read(),
     long_description_content_type='text/markdown',
     version=get_version_from_changelog(),
